@@ -21,8 +21,9 @@ def speak_to_grandma(phrase)
   #   return "I LOVE YOU TOO, PUMPINK!"
   love = "i love you grandma"
   if phrase = love.upcase
+  binding.pry
     return "I LOVE YOU TOO PUMPKIN!"
-    binding.pry
+
   elsif phrase = phrase.upcase
     return "NO, NOT SINCE 1938!"
 
