@@ -13,4 +13,5 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma(phrase)
   phrase = "I love you grandma"
+  puts phrase.uppercase
 end
